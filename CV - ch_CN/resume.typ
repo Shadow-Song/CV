@@ -103,9 +103,9 @@
   
   Swift, Python, C, Java, ARM汇编
   
-  SwiftUI, FastAPI, Flask, MySQL, Git, Vim, SSH
+  SwiftUI, FastAPI, Flask, MySQL, Linux
 
-  Linux, 深度学习
+  OpenCV, 深度学习
 
   IELTS 6.0 （听力5.5，口语6.0，阅读5.5，写作6.0）
 ]
@@ -135,7 +135,7 @@
 
 #item(
   link(
-    "https://github.com/OrangeX4/Latex-Sympy-Calculator",
+    "https://github.com/Shadow-Song/Canvas",
     [ *Ocean BB Lite* ]
   ),
   [ *个人项目* ],
@@ -153,7 +153,7 @@
 
 #item(
   link(
-    "https://github.com/OrangeX4/Reversi",
+    "https://github.com/Shadow-Song/RoboFinalProject",
     [ *基于树莓派4B的机器小车* ]
   ),
   [ *课程项目* ],
