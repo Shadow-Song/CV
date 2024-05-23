@@ -1,8 +1,8 @@
 // 字体
 #let font = (
-  main: "STKaiti",
+  main: "IBM Plex Serif",
   mono: "IBM Plex Mono",
-  cjk: "STKaiti",
+  cjk: "Times New Roman",
 )
 
 // 图标
@@ -145,7 +145,7 @@
           dir.content
         }
       })
-    }).join(h(0.5em) + "·" + h(0.5em))
+    }).join(h(2em))
     v(0.5em)
 }
 
