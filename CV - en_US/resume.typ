@@ -190,7 +190,6 @@ The robotic arm based on Jetson Nano realizes functions such as automatic grasp 
 
 == #faBuildingColumns Clubs
 
-
 #item(
   [ *iOS Club Technical Director* ],
   [],
@@ -198,3 +197,11 @@ The robotic arm based on Jetson Nano realizes functions such as automatic grasp 
 )
 
 With no teacher to teach related knowledge, I taught myself iOS development and SwiftUI, and organized many online activities to help students learn iOS development. Helped the community build the iOS knowledge system, and produced the first project for the newly established iOS Club.
+
+#item(
+  [ *Class Monitor* ],
+  [],
+  date[ September 2022 - Present ]
+)
+
+As a class monitor, I have been responsible for the daily management of the class, and have been praised by the teachers and students for my work. I have also been responsible for the organization of class activities and the maintenance of class discipline.
