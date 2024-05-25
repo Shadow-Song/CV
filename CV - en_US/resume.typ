@@ -188,7 +188,7 @@ The robotic arm based on Jetson Nano realizes functions such as automatic grasp 
 - Use Python to control Dji-RoboMaster and realize the function of fixed point movement
 
 
-== #faBuildingColumns Clubs
+== #faBuildingColumns Experiences
 
 #item(
   [ *iOS Club Technical Director* ],
