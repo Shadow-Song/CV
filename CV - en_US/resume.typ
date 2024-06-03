@@ -172,7 +172,7 @@ The robot car based on Raspberry Pi 4B realizes automatic tracking, obstacle avo
 
 #item(
   link(
-    "https://github.com/OrangeX4/Reversi",
+    "https://github.com/Shadow-Song/VisionRobot",
     [ *Machine Arm Based on Jetson* ]
   ),
   [ *Course Project* ],

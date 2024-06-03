@@ -170,7 +170,7 @@
 
 #item(
   link(
-    "https://github.com/OrangeX4/Reversi",
+    "https://github.com/Shadow-Song/VisionRobot",
     [ *基于Jetson Nano的机械臂* ]
   ),
   [ *课程项目* ],
