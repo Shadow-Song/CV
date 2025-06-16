@@ -39,7 +39,7 @@
   gutterWidth: 2em,
 )[
 
-= Lu, Yiyuan
+= Yiyuan Lu
 
 #info(
   color: themeColor,
