@@ -69,7 +69,7 @@
 )
 ][
 #h(2em)  // 手动顶行, 2em 代表两个字的宽度
-本人是一名2021级的本科生，目前就读于中国海洋大学计算机科学与技术专业。我最擅长的技术栈是iOS原生开发，能够熟练地使用SwiftUI、Moya与SwiftyJSON等框架。因此我希望能够在贵公司的iOS开发部门实习，提升自己的技术水平，同时为公司的发展贡献力量。
+本人是一名2021级的本科生，目前已于中国海洋大学毕业，获取到中国海洋大学工学学位与英国赫瑞-瓦特大学机器人学学士（BEng Robotics）的二等一学位，并已经收到曼彻斯特大学高级计算机科学技术硕士（MSc Advanced Computer Scinece）的Offer。我最擅长的技术栈是iOS原生开发，能够熟练地使用SwiftUI、Moya与SwiftyJSON等框架；并且我也参与过一些Android与Web项目的开发，能够使用Java、Python等语言进行开发。除此之外，我还对机器学习与计算机视觉有一定的了解，能够使用OpenCV与深度学习框架进行图像处理与模型训练。
 ]
 
 
@@ -173,10 +173,7 @@
 - 使用蓝牙与PyGame库连接DualShock 4手柄，实现了遥控功能
 
 #item(
-  link(
-    "https://github.com/Shadow-Song/VisionRobot",
-    [ *基于Jetson Nano的机械臂* ]
-  ),
+  [ *基于Jetson Nano的机械臂* ],
   [ *课程项目* ],
   date[ 2024 年 02 月 – 2024 年 06 月 ]
 )

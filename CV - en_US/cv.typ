@@ -70,7 +70,7 @@
 )
 ][
 #h(2em)  // 手动顶行, 2em 代表两个字的宽度
-I am an undergraduate student currently studying in Ocean University of China majoring in Computer Science and Technology. My best technology stack is iOS native development, and I am proficient in using frameworks such as SwiftUI, Moya and SwiftyJSON. Therefore, I would like to intern in the iOS development department of your company to improve my technical level and at the same time contribute to the development of the company.
+I am an undergraduate student of the class of 2021. I have graduated from Ocean University of China and obtained a bachelor's degree in engineering from Ocean University of China and a second class (Upper) degree in BEng Robotics from Heriot-Watt University in the UK. I have also received an offer for a master's degree in advanced computer science from the University of Manchester. The technology stack I am best at is native iOS development, and I can skillfully use frameworks such as SwiftUI, Moya, and SwiftyJSON; I have also participated in the development of some Android and Web projects, and can use languages such as Java and Python for development. In addition, I have a certain understanding of machine learning and computer vision, and can use OpenCV and deep learning frameworks for image processing and model training.
 ]
 
 
@@ -112,7 +112,7 @@ I am an undergraduate student currently studying in Ocean University of China ma
 
   OpenCV, Machine Learning
 
-  IELTS 6.0 (Listening 5.5, Speaking 6.0, Reading 5.5, Writting 6.0)
+  IELTS 6.0 (Listening 6.0, Speaking 5.5, Reading 7.5, Writting 6.0)
 ]
 
 
@@ -174,10 +174,7 @@ The robot car based on Raspberry Pi 4B realizes automatic tracking, obstacle avo
 - The remote control function is realized by connecting the DualShock 4 controller with the PyGame library using Bluetooth.
 
 #item(
-  link(
-    "https://github.com/Shadow-Song/VisionRobot",
-    [ *Machine Arm Based on Jetson* ]
-  ),
+  [ *Machine Arm Based on Jetson* ],
   [ *Course Project* ],
   date[ February 2024 - June 2024 ]
 )
