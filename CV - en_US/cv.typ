@@ -79,12 +79,15 @@ I am an undergraduate student currently studying in Ocean University of China ma
 #sidebar(withLine: true, sideWidth: 15%)[
   2021.09 - 2024.06
   
-  
   2024.09 - 2025.06
+
+  2025.09 - 2026.09
 ][
   *Ocean University of China* · School of Computer Science · Computer Science and Technology
 
-  *Heriot-Watt University* · School of Mathematical and Computer Sciences · Engineering in Robotics
+  *Heriot-Watt University* · School of Mathematical and Computer Sciences · BEng Robotics
+
+  *The University of Manchester* · MSc Advanced Computer Science
 ]
 
 
