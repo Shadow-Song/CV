@@ -1,10 +1,9 @@
 #let default-theme = (
 	margin: 26pt,
-	font-text: "STFangsong",
-	font-title: "Hei",
-	font-mono: "Monaco",
-	font-english: "Helvetica",
-	font-size: 10pt,
+	font-text: "Times New Roman",
+	font-size: 8pt,
+	font-title: "Trebuchet MS",
+	font-mono: "Arial",
 	text-color: rgb("#3f454d"),
 	gutter-size: 4em,
 	main-width: 6fr,
@@ -131,8 +130,8 @@
 	right,
 ) = {
 	set grid(columns: (theme.gutter-size, 1fr)) if "gutter-size" in theme
-	set text(font: theme.font-english) if "font-english" in theme
-	set text(font: default-theme.font-english) if "font-english" not in theme
+	set text(font: theme.font-title) if "font-title" in theme
+	set text(font: default-theme.font-title) if "font-title" not in theme
 	set text(size: theme.font-size) if "font-size" in theme
 
 	grid(
@@ -151,33 +150,26 @@
 
 #let tech-stack-entry(
 	theme: (),
-	icon,
-	text,
-	icon-size: 18pt,
-	padding: 4pt
+	gutter,
+	right,
 ) = {
-	let inset-value = if type(padding) == dictionary {
-		padding
-	} else {
-		padding
-	}
-	
-	{		
-		set block(inset: inset-value)
-		grid(
-			columns: (auto, 1fr),
-			column-gutter: 8pt,
-			{
-				set align(left + horizon)
-				set image(height: icon-size)
-				icon
-			},
-			{
-				set align(left + horizon)
-				text
+	set grid(columns: (theme.gutter-size, 1fr)) if "gutter-size" in theme
+	set text(font: theme.font-title) if "font-mono" in theme
+	set text(font: default-theme.font-title) if "font-mono" not in theme
+	set text(size: theme.font-size) if "font-size" in theme
+
+	grid(
+		{
+			context {
+				set align(center) if not "align-gutter" in theme
+				set align(theme.align-gutter) if "align-gutter" in theme
+				gutter
 			}
-		)
-	}
+		},
+		{
+			right
+		},
+	)
 }
 
 #let language-entry(
@@ -185,8 +177,8 @@
 	language,
 	level,
 ) = {
-	set text(font: theme.font) if "font-text" in theme
-	set text(font: default-theme.font-text) if "font-text" not in theme
+	set text(font: theme.font) if "font-mono" in theme
+	set text(font: default-theme.font-mono) if "font-mono" not in theme
 	set text(size: theme.font-size) if "font-size" in theme
 
 	stack(dir: ltr, language, {
@@ -252,9 +244,7 @@
 }
 
 #let education-entry(
-	theme: (
-		font-size: 8pt,
-	),
+	theme: (),
 	timeframe: "",
 	title: "",
 	institution: "",

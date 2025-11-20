@@ -23,20 +23,22 @@
   // 字体基准大小
   size: 10pt,
   // 标题颜色
-  themeColor: themeColor,
-  // 控制纸张的边距
-  top: 1.5cm,
-  bottom: 2cm,
-  left: 2cm,
-  right: 2cm,
+  theme-color: themeColor,
+  margin: (
+    // 页边距
+    top: 1.5cm,
+    bottom: 2cm,
+    left: 2cm,
+    right: 2cm,
+  ),
 
   // 如果需要姓名及联系信息居中，请删除下面关于头像的三行参数，并取消headerCenter的注释
   //headerCenter : true,
   
   // 如果不需要头像，则将下面三行的参数注释或删除
   photograph: "Avatar.jpg",
-  photographWidth: 11em,
-  gutterWidth: 2em,
+  photograph-width: 11em,
+  gutter-width: 2em,
 )[
 
 = Yiyuan Lu
@@ -76,7 +78,7 @@ I am an undergraduate student of the class of 2021. I have graduated from Ocean 
 
 == #faGraduationCap Education
 
-#sidebar(withLine: true, sideWidth: 15%)[
+#sidebar(with-line: true, side-width: 15%)[
   2021.09 - 2024.06
   
   2024.09 - 2025.06
@@ -93,7 +95,7 @@ I am an undergraduate student of the class of 2021. I have graduated from Ocean 
 
 == #faWrench Skills
 
-#sidebar(withLine: false, sideWidth: 25%)[
+#sidebar(with-line: false, side-width: 25%)[
   *Operating System*
   
   *Programming Language*
