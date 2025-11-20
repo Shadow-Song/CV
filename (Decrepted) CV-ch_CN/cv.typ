@@ -38,12 +38,13 @@
   
   // 如果不需要头像，则将下面三行的参数注释或删除
   photograph: "Avatar.jpg",
-  photograph-width: 12em,
+  photograph-width: 10em,
   gutter-width: 2em,
 )[
 
 = 个人简历
 
+== #Person 个人信息
 #info(
   color: themeColor,
   (

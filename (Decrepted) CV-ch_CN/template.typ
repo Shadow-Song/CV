@@ -2,7 +2,7 @@
 #let font = (
   main: "Times New Roman",
   mono: "Monaco",
-  cjk: "Kai",
+  cjk: "KaiTi",
 )
 
 // 图标
@@ -20,7 +20,7 @@
 
 // 主体
 #let resume(
-  size: 10pt,
+  size: 12pt,
   theme-color: rgb("#202020"),
   margin: (
     top: 1.5cm,
@@ -43,7 +43,7 @@
   set text(font: (font.main, font.cjk), size: size, lang: "zh")
 
   // 标题样式
-  show heading: set text(theme-color, 1.1em)
+  show heading: set text(font: "DengXian", theme-color, 1.1em)
 
   // 一级标题样式
   show heading.where(level: 1): set text(theme-color, 1.7em)
@@ -151,8 +151,7 @@
         }
       })
     })
-    .join(h(0.5em) + "·" + h(0.5em))
-  v(0.5em)
+    .join(h(1em))
 }
 
 
