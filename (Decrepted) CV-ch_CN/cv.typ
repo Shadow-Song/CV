@@ -1,8 +1,5 @@
 #import "template.typ": *
 
-// 设置图标, 来源: https://fontawesome.com/icons/
-// 如果要修改图标颜色, 请手动修改 svg 文件中的 fill="rgb(38, 38, 125)" 属性
-// 例如可以使用 VS Code 的全局文本替换功能
 #let Award = icon("icons/award.svg")
 #let BuildingColumns = icon("icons/building-columns.svg")
 #let Code = icon("icons/code.svg")
@@ -77,14 +74,14 @@
 )
 ][
 #h(2em)  // 手动顶行, 2em 代表两个字的宽度
-本人是一名2025年毕业的硕士研究生，将于2025年9月从英国布里斯托尔大学（University of Bristol）科学与工程学院毕业（Faculty of Science and Engineering）并获取计算机科学硕士学位（MSc Computer Science）。在2025年7月已经获取到中国海洋大学工学学位与英国赫瑞-瓦特大学（Heriot-Watt University）机器人学学士（BEng Robotics）的二等一学位。*我希望能够到佛山市禅城区工作*。
+本人是一名2026年毕业的硕士研究生，将于2026年9月从英国布里斯托尔大学（University of Bristol）科学与工程学院毕业（Faculty of Science and Engineering）并获取计算机科学硕士学位（MSc Computer Science）。在2025年7月已经获取到中国海洋大学工学学位与英国赫瑞-瓦特大学（Heriot-Watt University）机器人学学士（BEng Robotics）的二等一学位。*我希望能够到佛山市禅城区供电局工作*。
 ]
 
 
 == #GraduationCap 教育背景
 
 #sidebar(with-line: true, side-width: 17%)[
-  2021.09 - 2024.06
+  2021.09 - 2025.07
   
   2024.09 - 2025.06
 
@@ -144,8 +141,20 @@
 )
 
 #item(
+  [ *2023中国海洋大学信息科学与工程学部* ],
+  [ *优秀学生干部* ],
+  date[ 2023 年 10 月 ]
+)
+
+#item(
   [ *2024中国海洋大学奖学金* ],
   [ *创新创业奖学金* ],
+  date[ 2024 年 10 月 ]
+)
+
+#item(
+  [ *2024中国海洋大学信息科学与工程学部* ],
+  [ *优秀学生干部* ],
   date[ 2024 年 10 月 ]
 )
 
@@ -219,7 +228,7 @@
 #item(
   [ *2021级计算机科学与技术（中外合作办学）2班* ],
   [班长],
-  date[ 2022 年 09 月 - 2025 年 06 月 ]
+  date[ 2022 年 09 月 - 2025 年 07 月 ]
 )
 
 负责班级日常事务，组织班级活动，维护班级风气。
