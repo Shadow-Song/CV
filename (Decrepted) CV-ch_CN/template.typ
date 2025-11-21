@@ -1,8 +1,8 @@
 // 字体
 #let font = (
-  main: "Times New Roman",
+  main: "Kaiti SC",
   mono: "Monaco",
-  cjk: "KaiTi",
+  cjk: "Kai",
 )
 
 // 图标
@@ -43,7 +43,7 @@
   set text(font: (font.main, font.cjk), size: size, lang: "zh")
 
   // 标题样式
-  show heading: set text(font: "DengXian", theme-color, 1.1em)
+  show heading: set text(font: "PingFang SC", theme-color, 1.1em)
 
   // 一级标题样式
   show heading.where(level: 1): set text(theme-color, 1.7em)
@@ -68,7 +68,7 @@
         gutter: 0em,
         box({
           h(0.75em)
-          angle-right
+          "> "
         }),
         pad(top: 0.15em, item.body),
       )
@@ -177,7 +177,7 @@
 ) = {
   v(0.25em)
   grid(
-    columns: (30%, 1fr, auto),
+    columns: (40%, 1fr, auto),
     gutter: 0em,
     title, desc, endnote,
   )
