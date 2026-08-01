@@ -82,7 +82,6 @@
   set par(justify: true, spacing: 1em)
 
   // 首部与照片
-
   if header-center {
     assert(photograph == "", message: "can not centerize the name with the photo")
     align(alignment.center, header)
@@ -154,6 +153,34 @@
     .join(h(1em))
 }
 
+#let generic-two-by-two(
+  top-left: "",
+  top-right: "",
+  bottom-left: "",
+  bottom-right: "",
+) = [
+  #top-left #h(1fr) #top-right \
+  #bottom-left #h(1fr) #bottom-right
+]
+
+#let generic-one-by-two(left: "", right: "") = [
+  #left #h(1fr) #right
+]
+
+// 教育背景
+#let edu(
+  institution: "",
+  dates: "",
+  degree: "",
+  breif: "",
+) = {
+  generic-two-by-two(
+    top-left: text(size: 1.5em, strong(institution)),
+    top-right: dates,
+    bottom-left: emph(degree),
+  )
+  breif
+}
 
 // 日期： 颜色变灰
 #let date(body) = text(
@@ -175,10 +202,15 @@
   desc,
   endnote,
 ) = {
-  v(0.25em)
-  grid(
-    columns: (45%, 1fr, auto),
-    gutter: 0em,
-    title, desc, endnote,
+  stack(
+    spacing: 0.25em,
+    {
+      v(0.25em)
+      grid(
+        columns: (45%, 1fr, auto),
+        gutter: 0em,
+        text(size: 1.3em, strong(title)), strong(desc), endnote,
+      )
+    },
   )
 }
