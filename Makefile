@@ -1,7 +1,7 @@
 $(CC) = typst
 
 ch:
-	$(CC) compile CH/cv.typ -o cv.pdf
+	$(CC) compile CH/cv.typ
 
 en:
 	$(CC) compile EN/cv.typ -o cv.pdf
